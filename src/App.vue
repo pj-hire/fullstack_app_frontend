@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <img alt="Vue logo" src="./assets/logo.png"> <br>
+      <h2>Books App</h2>
+      <router-view></router-view>
     </div>
-    <router-view/>
   </div>
 </template>
 
@@ -29,4 +29,60 @@
     }
   }
 }
+
+//custom styles
+
+.book-router {
+  border: solid 1px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.add-book-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 20px 20px 20px 40px;
+  text-align: center;
+}
+
+.add-book-box div {
+  margin-bottom: 20px;
+}
+
+.account-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px;
+  padding: 20px 20px 20px 40px;
+  text-align: center;
+}
+
+.account-box div {
+  margin-bottom: 20px;
+}
+
+.account-box button {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: solid 1px;
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+}
+
+.box div {
+  margin-bottom: 20px;
+}
+
+.box button {
+  margin-top: 20px;
+}
+
 </style>
